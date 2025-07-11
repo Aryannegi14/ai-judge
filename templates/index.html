@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Relationship Judge AI 🤖💔</title>
+  <link rel="stylesheet" href="/static/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1>💔 Relationship Judge AI</h1>
+    <p class="sub">Built with 🧠 + ❤️ + GROQ</p>
+
+    <form action="/analyze" method="POST">
+      <label>📝 Problem:</label>
+      <textarea name="problem" required placeholder="Describe the issue..."></textarea>
+
+      <label>👤 Boyfriend Side:</label>
+      <textarea name="side_a" required placeholder="What does Side A feel?"></textarea>
+
+      <label>👤 Girlfriend Side:</label>
+      <textarea name="side_b" required placeholder="What does Side B feel?"></textarea>
+
+      <button type="submit">⚖️ Get AI Judgment</button>
+    </form>
+  </div>
+</body>
+</html>
